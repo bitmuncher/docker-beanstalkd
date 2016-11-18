@@ -1,6 +1,6 @@
 FROM debian:latest
 
-MAINTAINER Personio GmbH <dev@personio.de>
+MAINTAINER Frank Fuhrmann <frank.fuhrmann@mailbox.org>
 
 RUN apt-get update && apt-get -y dist-upgrade
 RUN apt-get -y install beanstalkd
